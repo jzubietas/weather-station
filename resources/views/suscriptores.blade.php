@@ -42,8 +42,8 @@
     <script src="{{ URL::asset('assets/js/app.js') }}"></script>
     <script>
         $('#datatable').DataTable({
-            processing: true,
-            serverSide: true,
+            processing: false,
+            serverSide: false,
             ajax: {
                 url: '{{ route('suscriptores-list') }}',
                 type: 'GET'
