@@ -62,7 +62,7 @@ class HomeController extends Controller
 
         return Datatables::of($datos)
             ->addIndexColumn()
-            ->addColumn('codigo', function ($datos) {
+            /*->addColumn('codigo', function ($datos) {
                 return '
                     <img src="' . URL::asset('assets/images/products/img-1.png') . '" alt="" height="40">
                     <p class="d-inline-block align-middle mb-0">
@@ -85,8 +85,8 @@ class HomeController extends Controller
                         <li class="list-inline-item align-middle"><i class="fas fa-circle text-info"></i></li>
                         <li class="list-inline-item align-middle"><i class="fas fa-circle text-warning"></i></li>
                     </ul>';
-            })
-            ->addColumn('android', function ($datos) {
+            })*/
+            /*->addColumn('android', function ($datos) {
                 return '
                     <ul class="list-inline mb-0">
                         <li class="list-inline-item align-middle"><i class="fas fa-circle text-success"></i></li>
@@ -94,13 +94,13 @@ class HomeController extends Controller
                         <li class="list-inline-item align-middle"><i class="fas fa-circle text-info"></i></li>
                         <li class="list-inline-item align-middle"><i class="fas fa-circle text-warning"></i></li>
                     </ul>';
-            })
+            })*/
             ->addColumn('action', function ($datos) {
                 return '
                     <a href="#"><i class="las la-pen text-secondary font-16"></i></a>
                     <a href="#"><i class="las la-trash-alt text-secondary font-16"></i></a>';
             })
-            ->rawColumns(['codigo', 'nombre', 'status', 'roku', 'android', 'action'])
+            ->rawColumns(['action'])
             ->make(true);
     }
 

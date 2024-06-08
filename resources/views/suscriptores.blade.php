@@ -54,8 +54,8 @@
                 { data: 'nombre', name: 'nombre' },
                 { data: 'email', name: 'email' },
                 { data: 'status', name: 'status' },
-                { data: 'roku', name: 'roku' },
-                { data: 'android', name: 'android' },
+                { data: 'status', name: 'status' },
+                { data: 'status', name: 'status' },
                 { data: 'action', name: 'action' }
             ],
             responsive: true,
