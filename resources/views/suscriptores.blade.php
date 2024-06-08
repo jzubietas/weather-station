@@ -44,7 +44,11 @@
         $('#datatable').DataTable({
             processing: true,
             serverSide: true,
-            ajax: '{{ route('suscriptores-list') }}',
+            ajax: {
+                url: '{{ route('suscriptores-list') }}',
+                type: 'GET'
+            },
+            order: [[1, 'asc']],
             columns: [
                 { data: 'id', name: 'id' },
                 { data: 'nombre', name: 'nombre' },

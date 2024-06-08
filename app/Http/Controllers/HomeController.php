@@ -12,6 +12,7 @@ use Illuminate\Support\Facades\Session;
 use Yajra\DataTables\DataTables;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\URL;
+use Illuminate\Support\Facades\Cache;
 
 class HomeController extends Controller
 {
@@ -53,53 +54,55 @@ class HomeController extends Controller
     }
     
     public function suscriptoreslist()
-{
-    // Retrieve the data using Eloquent
-    $datos = Suscriptores::whereIn('status', [0, 1])->get();
+    {
+        $cacheKey = 'suscriptores_list';
+        $datos = Cache::remember($cacheKey, 60, function() {
+            return Suscriptores::whereIn('status', [0, 1])->get();
+        });
 
-    return Datatables::of($datos)
-        ->addIndexColumn()
-        ->addColumn('codigo', function ($datos) {
-            return '
-                <img src="' . URL::asset('assets/images/products/img-1.png') . '" alt="" height="40">
-                <p class="d-inline-block align-middle mb-0">
-                    <a href="" class="d-inline-block align-middle mb-0 product-name">Bata Shoes</a>
-                    <br>
-                    <span class="text-muted font-13">size-08 (Model 2020)</span>
-                </p>';
-        })
-        ->editColumn('nombre', function ($datos) {
-            return '<span class="badge badge-soft-warning">' . e($datos->nombre) . '</span>';
-        })
-        ->editColumn('status', function ($datos) {
-            return '<span class="badge badge-soft-success">' . e($datos->status) . '</span>';
-        })
-        ->addColumn('roku', function ($datos) {
-            return '
-                <ul class="list-inline mb-0">
-                    <li class="list-inline-item align-middle"><i class="fas fa-circle text-success"></i></li>
-                    <li class="list-inline-item align-middle"><i class="fas fa-circle text-pink"></i></li>
-                    <li class="list-inline-item align-middle"><i class="fas fa-circle text-info"></i></li>
-                    <li class="list-inline-item align-middle"><i class="fas fa-circle text-warning"></i></li>
-                </ul>';
-        })
-        ->addColumn('android', function ($datos) {
-            return '
-                <ul class="list-inline mb-0">
-                    <li class="list-inline-item align-middle"><i class="fas fa-circle text-success"></i></li>
-                    <li class="list-inline-item align-middle"><i class="fas fa-circle text-pink"></i></li>
-                    <li class="list-inline-item align-middle"><i class="fas fa-circle text-info"></i></li>
-                    <li class="list-inline-item align-middle"><i class="fas fa-circle text-warning"></i></li>
-                </ul>';
-        })
-        ->addColumn('action', function ($datos) {
-            return '
-                <a href="#"><i class="las la-pen text-secondary font-16"></i></a>
-                <a href="#"><i class="las la-trash-alt text-secondary font-16"></i></a>';
-        })
-        ->rawColumns(['codigo', 'nombre', 'status', 'roku', 'android', 'action'])
-        ->make(true);
-}
+        return Datatables::of($datos)
+            ->addIndexColumn()
+            ->addColumn('codigo', function ($datos) {
+                return '
+                    <img src="' . URL::asset('assets/images/products/img-1.png') . '" alt="" height="40">
+                    <p class="d-inline-block align-middle mb-0">
+                        <a href="" class="d-inline-block align-middle mb-0 product-name">Bata Shoes</a>
+                        <br>
+                        <span class="text-muted font-13">size-08 (Model 2020)</span>
+                    </p>';
+            })
+            ->editColumn('nombre', function ($datos) {
+                return '<span class="badge badge-soft-warning">' . e($datos->nombre) . '</span>';
+            })
+            ->editColumn('status', function ($datos) {
+                return '<span class="badge badge-soft-success">' . e($datos->status) . '</span>';
+            })
+            ->addColumn('roku', function ($datos) {
+                return '
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item align-middle"><i class="fas fa-circle text-success"></i></li>
+                        <li class="list-inline-item align-middle"><i class="fas fa-circle text-pink"></i></li>
+                        <li class="list-inline-item align-middle"><i class="fas fa-circle text-info"></i></li>
+                        <li class="list-inline-item align-middle"><i class="fas fa-circle text-warning"></i></li>
+                    </ul>';
+            })
+            ->addColumn('android', function ($datos) {
+                return '
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item align-middle"><i class="fas fa-circle text-success"></i></li>
+                        <li class="list-inline-item align-middle"><i class="fas fa-circle text-pink"></i></li>
+                        <li class="list-inline-item align-middle"><i class="fas fa-circle text-info"></i></li>
+                        <li class="list-inline-item align-middle"><i class="fas fa-circle text-warning"></i></li>
+                    </ul>';
+            })
+            ->addColumn('action', function ($datos) {
+                return '
+                    <a href="#"><i class="las la-pen text-secondary font-16"></i></a>
+                    <a href="#"><i class="las la-trash-alt text-secondary font-16"></i></a>';
+            })
+            ->rawColumns(['codigo', 'nombre', 'status', 'roku', 'android', 'action'])
+            ->make(true);
+    }
 
     public function updateProfile(Request $request, $id)
     {
