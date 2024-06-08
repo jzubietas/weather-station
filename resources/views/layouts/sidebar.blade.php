@@ -14,10 +14,26 @@
         <!--end logo-->
         <div class="menu-content h-100" data-simplebar>
             <ul class="metismenu left-sidenav-menu">
-                <li class="menu-label mt-0">Main</li>
+                <li class="menu-label mt-0">
+                    <a class="nav-link" href="/">
+                    Inicio
+                    </a>
+                </li>
                 <li>
                     <a href="javascript: void(0);"> <i data-feather="home"
-                            class="align-self-center menu-icon"></i><span>Dashboard</span><span
+                            class="align-self-center menu-icon"></i><span>Suscriptores VOD</span><span
+                            class="menu-arrow"><i class="mdi mdi-chevron-right"></i></span></a>
+                    <ul class="nav-second-level" aria-expanded="false">
+                        <li class="nav-item"><a class="nav-link" href="suscriptores"><i
+                                    class="ti-control-record"></i>Suscriptores</a></li>
+                        <li class="nav-item"><a class="nav-link" href="sales-index"><i
+                                    class="ti-control-record"></i>New User Real</a></li>
+                    </ul>
+                </li>
+                
+                <li class="d-none">
+                    <a href="javascript: void(0);"> <i data-feather="home"
+                            class="align-self-center menu-icon"></i><span>Dashboard sdd</span><span
                             class="menu-arrow"><i class="mdi mdi-chevron-right"></i></span></a>
                     <ul class="nav-second-level" aria-expanded="false">
                         <li class="nav-item"><a class="nav-link" href="index"><i
