@@ -13,4 +13,5 @@ class Suscriptores extends Model
 
     //protected $guarded = ['id'];
     protected $table = 'usuario_vod';
+    protected $guarded = ['id'];
 }
