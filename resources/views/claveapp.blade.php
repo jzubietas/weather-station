@@ -23,11 +23,36 @@
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="mb-3 row">
-                                            <label for="example-text-input" class="col-sm-2 form-label align-self-center mb-lg-0 text-end">Text</label>
+                                            <label for="example-text-input" class="col-sm-2 form-label align-self-center mb-lg-0 text-end">Clave APP</label>
                                             <div class="col-sm-10">
                                                 <input class="form-control" type="text" value="Artisanal kale" id="example-text-input">
                                             </div>
                                         </div>
+                                        <div class="mb-3 row">
+                                            <label for="example-text-input" class="col-sm-2 form-label align-self-center mb-lg-0 text-end">Xtreme Code Key</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" value="Artisanal kale" id="example-text-input">
+                                            </div>
+                                        </div>
+                                        <div class="mb-3 row">
+                                            <label for="example-text-input" class="col-sm-2 form-label align-self-center mb-lg-0 text-end">Xtreme Code Api Url</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" value="Artisanal kale" id="example-text-input">
+                                            </div>
+                                        </div>
+                                        <div class="mb-3 row">
+                                            <label for="example-text-input" class="col-sm-2 form-label align-self-center mb-lg-0 text-end">EPG Link Spanish Download</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" value="Artisanal kale" id="example-text-input">
+                                            </div>
+                                        </div>
+                                        <div class="mb-3 row">
+                                            <label for="example-text-input" class="col-sm-2 form-label align-self-center mb-lg-0 text-end">Clave APP</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="text" value="Artisanal kale" id="example-text-input">
+                                            </div>
+                                        </div>
+
                                         <div class="mb-3 row">
                                             <label for="example-email-input" class="col-sm-2 form-label align-self-center mb-lg-0 text-end">Email</label>
                                             <div class="col-sm-10">
