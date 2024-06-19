@@ -118,6 +118,11 @@
                                                 <input class="form-control" type="search" value="How do I shoot web" id="example-search-input">
                                             </div>
                                         </div>
+
+                                        <button type="submit" class="btn btn-success">Guardar</button>
+                                        <button type="button" class="btn btn-primary">Generar Key</button>
+                                        <button type="button" class="btn btn-warning">Actualizar EPG</button>
+
                                     </div>
 
 
