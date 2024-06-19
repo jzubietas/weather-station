@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col">
                     <h4 class="page-title">{{ $title }}</h4>
-                    <ol class="breadcrumb">
+                    <ol class="breadcrumb d-none">
                         <li class="breadcrumb-item"><a href="javascript:void(0);">{{ $li_1 }}</a></li>
                         @if(isset($li_2))
                             <li class="breadcrumb-item"><a href="javascript:void(0);">{{ $li_2 }}</a></li>
