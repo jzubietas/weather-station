@@ -33,3 +33,5 @@ Route::get('suscriptores-list',[App\Http\Controllers\HomeController::class, 'sus
 
 Route::get('claveapp', [App\Http\Controllers\HomeController::class, 'claveapp'])->name('claveapp');
 Route::get('adduser', [App\Http\Controllers\HomeController::class, 'adduser'])->name('adduser');
+Route::get('ndealer', [App\Http\Controllers\HomeController::class, 'ndealer'])->name('ndealer');
+Route::get('ldealer', [App\Http\Controllers\HomeController::class, 'ldealer'])->name('ldealer');

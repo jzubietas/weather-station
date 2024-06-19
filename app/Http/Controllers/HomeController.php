@@ -62,6 +62,22 @@ class HomeController extends Controller
         }
         return abort(404);
     }
+
+    public function ndealer(Request $request)
+    {
+        if (view()->exists("ndealer")) {
+            return view("ndealer");
+        }
+        return abort(404);
+    }
+
+    public function ldealer(Request $request)
+    {
+        if (view()->exists("ldealer")) {
+            return view("ldealer");
+        }
+        return abort(404);
+    }
     
 
     public function root()

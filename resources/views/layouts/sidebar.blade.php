@@ -36,9 +36,9 @@
                             class="align-self-center menu-icon"></i><span>Dealers</span><span
                             class="menu-arrow"><i class="mdi mdi-chevron-right"></i></span></a>
                     <ul class="nav-second-level" aria-expanded="false">
-                        <li class="nav-item"><a class="nav-link" href="suscriptores"><i
+                        <li class="nav-item"><a class="nav-link" href="ndealer"><i
                                     class="ti-control-record"></i>Nuevo dealer</a></li>
-                        <li class="nav-item"><a class="nav-link" href="sales-index"><i
+                        <li class="nav-item"><a class="nav-link" href="ldealer"><i
                                     class="ti-control-record"></i>Listado Dealer</a></li>
                     </ul>
                 </li>
