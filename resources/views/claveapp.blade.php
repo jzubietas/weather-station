@@ -188,7 +188,7 @@
                     </div><!--end col-->
                 </div>
 
-                <div class="row">
+                <div class="row d-none">
                     <div class="col-lg-6">
                         <div class="card">
                             <div class="card-header">
@@ -251,7 +251,7 @@
                     </div><!--end col-->
                 </div>
 
-                <div class="row">
+                <div class="row d-none">
                     <div class="col-lg-6">
                         <div class="card">
                             <div class="card-header">
@@ -330,7 +330,7 @@
                     </div><!--end col-->
                 </div>
 
-                <div class="row">
+                <div class="row d-none">
                     <div class="col-lg-6">
                         <div class="card">
                             <div class="card-header">
@@ -602,7 +602,7 @@
                     </div> <!-- end col -->
                 </div>
 
-                <div class="row">
+                <div class="row d-none">
                     <div class="col-xl-6">
                         <div class="card">
                             <div class="card-header">
@@ -747,7 +747,7 @@
                     </div> <!-- end col -->
                 </div>
 
-                <div class="row">
+                <div class="row d-none">
                     <div class="col-lg-6">
                         <div class="card">
                             <div class="card-header">
