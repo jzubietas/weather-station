@@ -64,7 +64,7 @@
                         <li class="nav-item"><a class="nav-link" href="sales-index"><i class="ti-control-record"></i>Sugerencia/Pedido</a></li>
                         <li class="nav-item"><a class="nav-link" href="sales-index"><i class="ti-control-record"></i>Bitacora</a></li>
                         <li class="nav-item"><a class="nav-link" href="sales-index"><i class="ti-control-record"></i>Duplica Creditos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="sales-index"><i class="ti-control-record"></i>Clave APP</a></li>
+                        <li class="nav-item"><a class="nav-link" href="claveapp"><i class="ti-control-record"></i>Clave APP</a></li>
                     </ul>
                 </li>
                 

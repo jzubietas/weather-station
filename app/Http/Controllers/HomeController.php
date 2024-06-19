@@ -46,6 +46,14 @@ class HomeController extends Controller
         }
         return abort(404);
     }
+
+    public function claveapp(Request $request)
+    {
+        if (view()->exists("claveapp")) {
+            return view("claveapp");
+        }
+        return abort(404);
+    }
     
 
     public function root()
