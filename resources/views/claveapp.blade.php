@@ -121,7 +121,7 @@
                                     </div>
 
 
-                                    <div class="col-lg-6">
+                                    <div class="col-lg-6 d-none">
                                         <div class="mb-3 row">
                                             <label for="example-url-input" class="col-sm-2 form-label align-self-center mb-lg-0 text-end">URL</label>
                                             <div class="col-sm-10">
