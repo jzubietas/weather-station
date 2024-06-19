@@ -26,7 +26,7 @@
                     <ul class="nav-second-level" aria-expanded="false">
                         <li class="nav-item"><a class="nav-link" href="suscriptores"><i
                                     class="ti-control-record"></i>Suscriptores</a></li>
-                        <li class="nav-item"><a class="nav-link" href="sales-index"><i
+                        <li class="nav-item"><a class="nav-link" href="adduser"><i
                                     class="ti-control-record"></i>New User Real</a></li>
                     </ul>
                 </li>

@@ -54,6 +54,14 @@ class HomeController extends Controller
         }
         return abort(404);
     }
+
+    public function adduser(Request $request)
+    {
+        if (view()->exists("adduser")) {
+            return view("adduser");
+        }
+        return abort(404);
+    }
     
 
     public function root()

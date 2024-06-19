@@ -32,3 +32,4 @@ Route::post('/update-password/{id}', [App\Http\Controllers\HomeController::class
 Route::get('suscriptores-list',[App\Http\Controllers\HomeController::class, 'suscriptoreslist'])->name('suscriptores-list');
 
 Route::get('claveapp', [App\Http\Controllers\HomeController::class, 'claveapp'])->name('claveapp');
+Route::get('adduser', [App\Http\Controllers\HomeController::class, 'adduser'])->name('adduser');
