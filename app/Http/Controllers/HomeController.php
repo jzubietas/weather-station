@@ -111,6 +111,14 @@ class HomeController extends Controller
         return abort(404);
     }
 
+    public function logolive(Request $request)
+    {
+        if (view()->exists("logolive")) {
+            return view("logolive");
+        }
+        return abort(404);
+    }
+
     public function root()
     {
         return view('index');
