@@ -53,6 +53,13 @@
                                             </div>
                                         </div>
 
+                                        <div class="mb-3 row">
+                                            <div class="form-check form-switch">
+                                                <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                                                <label class="form-check-label" for="flexSwitchCheckDefault">Default switch</label>
+                                            </div>
+                                        </div>
+
                                         <div class="mb-3 row d-none">
                                             <label for="example-email-input" class="col-sm-2 form-label align-self-center mb-lg-0 text-end">Email</label>
                                             <div class="col-sm-10">
