@@ -94,6 +94,15 @@ class HomeController extends Controller
         }
         return abort(404);
     }
+
+    public function nuploader(Request $request)
+    {
+        if (view()->exists("nuploader")) {
+            return view("nuploader");
+        }
+        return abort(404);
+    }
+    
     
     
 

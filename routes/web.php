@@ -37,4 +37,5 @@ Route::get('ndealer', [App\Http\Controllers\HomeController::class, 'ndealer'])->
 Route::get('ldealer', [App\Http\Controllers\HomeController::class, 'ldealer'])->name('ldealer');
 Route::get('versionApp', [App\Http\Controllers\HomeController::class, 'versionApp'])->name('versionApp');
 Route::get('luploaders', [App\Http\Controllers\HomeController::class, 'luploaders'])->name('luploaders');
+Route::get('nuploader', [App\Http\Controllers\HomeController::class, 'nuploader'])->name('nuploader');
 
