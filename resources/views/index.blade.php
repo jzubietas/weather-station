@@ -59,7 +59,7 @@
                                     <div class="col">
                                         <p class="text-dark mb-0 fw-semibold">LIVETV</p>
                                         <h3 class="m-0">506</h3>
-                                        <p class="mb-0 text-truncate text-muted"><span class="text-success"><i class="mdi mdi-trending-up"></i>10.5%</span> Descargar Listado</p>
+                                        <p class="mb-0 text-truncate text-muted"><span class="text-danger"><i class="mdi mdi-trending-up"></i>10.5%</span> Descargar Listado</p>
                                     </div>
                                     <div class="col-auto align-self-center">
                                         <div class="report-main-icon bg-light-alt">
