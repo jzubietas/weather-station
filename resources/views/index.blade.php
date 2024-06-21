@@ -10,7 +10,7 @@
             @slot('li_1') Dastone @endslot
             @slot('li_2') Dashboard @endslot
             @slot('li_3') Analytics @endslot
-            @slot('title') Analytics @endslot
+            @slot('title') PANEL IPTV @endslot
         @endcomponent
 
         <div class="row">
@@ -21,7 +21,7 @@
                             <div class="card-body">
                                 <div class="row d-flex justify-content-center">
                                     <div class="col">
-                                        <p class="text-dark mb-0 fw-semibold">Sessions</p>
+                                        <p class="text-dark mb-0 fw-semibold">Ultimos Suscriptores</p>
                                         <h3 class="m-0">24k</h3>
                                         <p class="mb-0 text-truncate text-muted"><span class="text-success"><i class="mdi mdi-trending-up"></i>8.5%</span> New Sessions Today</p>
                                     </div>
@@ -39,7 +39,7 @@
                             <div class="card-body">
                                 <div class="row d-flex justify-content-center">
                                     <div class="col">
-                                        <p class="text-dark mb-0 fw-semibold">Avg.Sessions</p>
+                                        <p class="text-dark mb-0 fw-semibold">Ultimos Dealers registrados</p>
                                         <h3 class="m-0">00:18</h3>
                                         <p class="mb-0 text-truncate text-muted"><span class="text-success"><i class="mdi mdi-trending-up"></i>1.5%</span> Weekly Avg.Sessions</p>
                                     </div>
@@ -57,9 +57,9 @@
                             <div class="card-body">
                                 <div class="row d-flex justify-content-center">
                                     <div class="col">
-                                        <p class="text-dark mb-0 fw-semibold">Bounce Rate</p>
-                                        <h3 class="m-0">$2400</h3>
-                                        <p class="mb-0 text-truncate text-muted"><span class="text-danger"><i class="mdi mdi-trending-down"></i>35%</span> Bounce Rate Weekly</p>
+                                        <p class="text-dark mb-0 fw-semibold">LIVETV</p>
+                                        <h3 class="m-0">506</h3>
+                                        <p class="mb-0 text-truncate text-muted"><span class="text-danger"><i class="mdi mdi-trending-down"></i>35%</span> Descargar Listado</p>
                                     </div>
                                     <div class="col-auto align-self-center">
                                         <div class="report-main-icon bg-light-alt">
@@ -75,9 +75,45 @@
                             <div class="card-body">
                                 <div class="row d-flex justify-content-center">
                                     <div class="col">
-                                        <p class="text-dark mb-0 fw-semibold">Goal Completions</p>
-                                        <h3 class="m-0">85000</h3>
-                                        <p class="mb-0 text-truncate text-muted"><span class="text-success"><i class="mdi mdi-trending-up"></i>10.5%</span> Completions Weekly</p>
+                                        <p class="text-dark mb-0 fw-semibold">PELICULAS</p>
+                                        <h3 class="m-0">7196</h3>
+                                        <p class="mb-0 text-truncate text-muted"><span class="text-success"><i class="mdi mdi-trending-up"></i>10.5%</span> Descargar Listado</p>
+                                    </div>
+                                    <div class="col-auto align-self-center">
+                                        <div class="report-main-icon bg-light-alt">
+                                            <i data-feather="briefcase" class="align-self-center text-muted icon-sm"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--end card-body-->
+                        </div><!--end card-->
+                    </div> <!--end col-->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card report-card">
+                            <div class="card-body">
+                                <div class="row d-flex justify-content-center">
+                                    <div class="col">
+                                        <p class="text-dark mb-0 fw-semibold">SERIES</p>
+                                        <h3 class="m-0">894</h3>
+                                        <p class="mb-0 text-truncate text-muted"><span class="text-success"><i class="mdi mdi-trending-up"></i>10.5%</span> Descargar Listado</p>
+                                    </div>
+                                    <div class="col-auto align-self-center">
+                                        <div class="report-main-icon bg-light-alt">
+                                            <i data-feather="briefcase" class="align-self-center text-muted icon-sm"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--end card-body-->
+                        </div><!--end card-->
+                    </div> <!--end col-->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card report-card">
+                            <div class="card-body">
+                                <div class="row d-flex justify-content-center">
+                                    <div class="col">
+                                        <p class="text-dark mb-0 fw-semibold">ADULTOS</p>
+                                        <h3 class="m-0">7196</h3>
+                                        <p class="mb-0 text-truncate text-muted"><span class="text-success"><i class="mdi mdi-trending-up"></i>10.5%</span> Descargar Listado</p>
                                     </div>
                                     <div class="col-auto align-self-center">
                                         <div class="report-main-icon bg-light-alt">
@@ -408,7 +444,7 @@
                     <div class="card-header">
                         <div class="row align-items-center">
                             <div class="col">
-                                <h4 class="card-title">Browser Used & Traffic Reports</h4>
+                                <h4 class="card-title">Actividad Suscriptores</h4>
                             </div><!--end col-->
                         </div>  <!--end row-->
                     </div><!--end card-header-->
@@ -417,10 +453,14 @@
                             <table class="table mb-0">
                                 <thead class="table-light">
                                     <tr>
-                                        <th class="border-top-0">Channel</th>
-                                        <th class="border-top-0">Sessions</th>
-                                        <th class="border-top-0">Prev.Period</th>
-                                        <th class="border-top-0">% Change</th>
+                                        <th class="border-top-0">Suscriptor</th>
+                                        <th class="border-top-0">IP Suscriptor</th>
+                                        <th class="border-top-0">Ciudad</th>
+                                        <th class="border-top-0">Estado</th>
+                                        <th class="border-top-0">Pais</th>
+                                        <th class="border-top-0">Dispositivo</th>
+                                        <th class="border-top-0">Modelo</th>
+                                        <th class="border-top-0">Version APP</th>
                                     </tr><!--end tr-->
                                 </thead>
                                 <tbody>
@@ -429,12 +469,20 @@
                                         <td>10853<small class="text-muted">(52%)</small></td>
                                         <td>566<small class="text-muted">(92%)</small></td>
                                         <td> 52.80% <i class="fas fa-caret-up text-success font-16"></i></td>
+                                        <td> 52.80% <i class="fas fa-caret-up text-success font-16"></i></td>
+                                        <td> 52.80% <i class="fas fa-caret-up text-success font-16"></i></td>
+                                        <td> 52.80% <i class="fas fa-caret-up text-success font-16"></i></td>
+                                        <td> 52.80% <i class="fas fa-caret-up text-success font-16"></i></td>
                                     </tr><!--end tr-->
                                     <tr>
                                         <td><a href="" class="text-primary">Direct</a></td>
                                         <td>2545<small class="text-muted">(47%)</small></td>
                                         <td>498<small class="text-muted">(81%)</small></td>
                                         <td> -17.20% <i class="fas fa-caret-down text-danger font-16"></i></td>
+                                        <td> 52.80% <i class="fas fa-caret-up text-success font-16"></i></td>
+                                        <td> 52.80% <i class="fas fa-caret-up text-success font-16"></i></td>
+                                        <td> 52.80% <i class="fas fa-caret-up text-success font-16"></i></td>
+                                        <td> 52.80% <i class="fas fa-caret-up text-success font-16"></i></td>
 
                                     </tr><!--end tr-->
                                     <tr>
@@ -442,20 +490,13 @@
                                         <td>1836<small class="text-muted">(38%)</small></td>
                                         <td>455<small class="text-muted">(74%)</small></td>
                                         <td> 41.12% <i class="fas fa-caret-up text-success font-16"></i></td>
+                                        <td> 52.80% <i class="fas fa-caret-up text-success font-16"></i></td>
+                                        <td> 52.80% <i class="fas fa-caret-up text-success font-16"></i></td>
+                                        <td> 52.80% <i class="fas fa-caret-up text-success font-16"></i></td>
+                                        <td> 52.80% <i class="fas fa-caret-up text-success font-16"></i></td>
 
                                     </tr><!--end tr-->
-                                    <tr>
-                                        <td><a href="" class="text-primary">Email</a></td>
-                                        <td>1958<small class="text-muted">(31%)</small></td>
-                                        <td>361<small class="text-muted">(61%)</small></td>
-                                        <td> -8.24% <i class="fas fa-caret-down text-danger font-16"></i></td>
-                                    </tr><!--end tr-->
-                                    <tr>
-                                        <td><a href="" class="text-primary">Social</a></td>
-                                        <td>1566<small class="text-muted">(26%)</small></td>
-                                        <td>299<small class="text-muted">(49%)</small></td>
-                                        <td> 29.33% <i class="fas fa-caret-up text-success"></i></td>
-                                    </tr><!--end tr-->
+                                    
                                 </tbody>
                             </table> <!--end table-->
                         </div><!--end /div-->
