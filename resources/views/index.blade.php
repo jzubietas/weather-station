@@ -10,7 +10,7 @@
             @slot('li_1') Dastone @endslot
             @slot('li_2') Dashboard @endslot
             @slot('li_3') Analytics @endslot
-            @slot('title') Analytics @endslot
+            @slot('title') PANEL IPTV @endslot
         @endcomponent
 
         <div class="row">
@@ -408,7 +408,7 @@
                     <div class="card-header">
                         <div class="row align-items-center">
                             <div class="col">
-                                <h4 class="card-title">Browser Used & Traffic Reports</h4>
+                                <h4 class="card-title">Actividad Suscriptores</h4>
                             </div><!--end col-->
                         </div>  <!--end row-->
                     </div><!--end card-header-->
@@ -417,10 +417,14 @@
                             <table class="table mb-0">
                                 <thead class="table-light">
                                     <tr>
-                                        <th class="border-top-0">Channel</th>
-                                        <th class="border-top-0">Sessions</th>
-                                        <th class="border-top-0">Prev.Period</th>
-                                        <th class="border-top-0">% Change</th>
+                                        <th class="border-top-0">Suscriptor</th>
+                                        <th class="border-top-0">IP Suscriptor</th>
+                                        <th class="border-top-0">Ciudad</th>
+                                        <th class="border-top-0">Estado</th>
+                                        <th class="border-top-0">Pais</th>
+                                        <th class="border-top-0">Dispositivo</th>
+                                        <th class="border-top-0">Modelo</th>
+                                        <th class="border-top-0">Version APP</th>
                                     </tr><!--end tr-->
                                 </thead>
                                 <tbody>
@@ -429,12 +433,20 @@
                                         <td>10853<small class="text-muted">(52%)</small></td>
                                         <td>566<small class="text-muted">(92%)</small></td>
                                         <td> 52.80% <i class="fas fa-caret-up text-success font-16"></i></td>
+                                        <td> 52.80% <i class="fas fa-caret-up text-success font-16"></i></td>
+                                        <td> 52.80% <i class="fas fa-caret-up text-success font-16"></i></td>
+                                        <td> 52.80% <i class="fas fa-caret-up text-success font-16"></i></td>
+                                        <td> 52.80% <i class="fas fa-caret-up text-success font-16"></i></td>
                                     </tr><!--end tr-->
                                     <tr>
                                         <td><a href="" class="text-primary">Direct</a></td>
                                         <td>2545<small class="text-muted">(47%)</small></td>
                                         <td>498<small class="text-muted">(81%)</small></td>
                                         <td> -17.20% <i class="fas fa-caret-down text-danger font-16"></i></td>
+                                        <td> 52.80% <i class="fas fa-caret-up text-success font-16"></i></td>
+                                        <td> 52.80% <i class="fas fa-caret-up text-success font-16"></i></td>
+                                        <td> 52.80% <i class="fas fa-caret-up text-success font-16"></i></td>
+                                        <td> 52.80% <i class="fas fa-caret-up text-success font-16"></i></td>
 
                                     </tr><!--end tr-->
                                     <tr>
@@ -442,20 +454,13 @@
                                         <td>1836<small class="text-muted">(38%)</small></td>
                                         <td>455<small class="text-muted">(74%)</small></td>
                                         <td> 41.12% <i class="fas fa-caret-up text-success font-16"></i></td>
+                                        <td> 52.80% <i class="fas fa-caret-up text-success font-16"></i></td>
+                                        <td> 52.80% <i class="fas fa-caret-up text-success font-16"></i></td>
+                                        <td> 52.80% <i class="fas fa-caret-up text-success font-16"></i></td>
+                                        <td> 52.80% <i class="fas fa-caret-up text-success font-16"></i></td>
 
                                     </tr><!--end tr-->
-                                    <tr>
-                                        <td><a href="" class="text-primary">Email</a></td>
-                                        <td>1958<small class="text-muted">(31%)</small></td>
-                                        <td>361<small class="text-muted">(61%)</small></td>
-                                        <td> -8.24% <i class="fas fa-caret-down text-danger font-16"></i></td>
-                                    </tr><!--end tr-->
-                                    <tr>
-                                        <td><a href="" class="text-primary">Social</a></td>
-                                        <td>1566<small class="text-muted">(26%)</small></td>
-                                        <td>299<small class="text-muted">(49%)</small></td>
-                                        <td> 29.33% <i class="fas fa-caret-up text-success"></i></td>
-                                    </tr><!--end tr-->
+                                    
                                 </tbody>
                             </table> <!--end table-->
                         </div><!--end /div-->
