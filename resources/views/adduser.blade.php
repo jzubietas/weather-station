@@ -14,7 +14,7 @@
                         <h1>Usuario nuevo</h1>
                         <div class="card">
                             <div class="card-header">
-                                <h4 class="card-title">Clave APP</h4>
+                                <h4 class="card-title">Nuevo Usuario</h4>
                                 <p class="text-muted mb-0">Here are examples of <code class="highlighter-rouge">.form-control</code> applied to each
                                     textual HTML5 <code class="highlighter-rouge">&lt;input&gt;</code> <code class="highlighter-rouge">type</code>.
                                 </p>
@@ -23,31 +23,31 @@
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="mb-3 row">
-                                            <label for="example-text-input" class="col-sm-2 form-label align-self-center mb-lg-0 text-end">Clave APP</label>
+                                            <label for="example-text-input" class="col-sm-2 form-label align-self-center mb-lg-0 text-end">Codigo Usuario</label>
                                             <div class="col-sm-10">
                                                 <input class="form-control" type="text" value="Artisanal kale" id="example-text-input">
                                             </div>
                                         </div>
                                         <div class="mb-3 row">
-                                            <label for="example-text-input" class="col-sm-2 form-label align-self-center mb-lg-0 text-end">Xtreme Code Key</label>
+                                            <label for="example-text-input" class="col-sm-2 form-label align-self-center mb-lg-0 text-end">Nombre Usuario</label>
                                             <div class="col-sm-10">
                                                 <input class="form-control" type="text" value="Artisanal kale" id="example-text-input">
                                             </div>
                                         </div>
                                         <div class="mb-3 row">
-                                            <label for="example-text-input" class="col-sm-2 form-label align-self-center mb-lg-0 text-end">Xtreme Code Api Url</label>
+                                            <label for="example-text-input" class="col-sm-2 form-label align-self-center mb-lg-0 text-end">Contraseña</label>
+                                            <div class="col-sm-10">
+                                                <input class="form-control" type="password" value="Artisanal kale" id="example-text-input">
+                                            </div>
+                                        </div>
+                                        <div class="mb-3 row">
+                                            <label for="example-text-input" class="col-sm-2 form-label align-self-center mb-lg-0 text-end">Pin de seguridad</label>
                                             <div class="col-sm-10">
                                                 <input class="form-control" type="text" value="Artisanal kale" id="example-text-input">
                                             </div>
                                         </div>
                                         <div class="mb-3 row">
-                                            <label for="example-text-input" class="col-sm-2 form-label align-self-center mb-lg-0 text-end">EPG Link Spanish Download</label>
-                                            <div class="col-sm-10">
-                                                <input class="form-control" type="text" value="Artisanal kale" id="example-text-input">
-                                            </div>
-                                        </div>
-                                        <div class="mb-3 row">
-                                            <label for="example-text-input" class="col-sm-2 form-label align-self-center mb-lg-0 text-end">Clave APP</label>
+                                            <label for="example-text-input" class="col-sm-2 form-label align-self-center mb-lg-0 text-end">Creditos</label>
                                             <div class="col-sm-10">
                                                 <input class="form-control" type="text" value="Artisanal kale" id="example-text-input">
                                             </div>
@@ -188,7 +188,7 @@
                     </div><!--end col-->
                 </div>
 
-                <div class="row d-none">
+                <div class="row ">
                     <div class="col-lg-6">
                         <div class="card">
                             <div class="card-header">
