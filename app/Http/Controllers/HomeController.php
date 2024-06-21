@@ -86,6 +86,14 @@ class HomeController extends Controller
         }
         return abort(404);
     }
+
+    public function luploaders(Request $request)
+    {
+        if (view()->exists("luploaders")) {
+            return view("luploaders");
+        }
+        return abort(404);
+    }
     
     
 
