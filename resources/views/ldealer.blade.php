@@ -19,12 +19,13 @@
                     <table id="datatable" class="table table-bordered">
                         <thead>
                         <tr>
-                            <th>Codigo</th>
-                            <th>Nombre</th>
-                            <th>Email</th>
+                            <th>Usuario</th>
+                            <th>Tipo de usuario</th>
+                            <th>Subs</th>
+                            <th>Creditos</th>
+                            <th>Dealer</th>
                             <th>Estatus</th>
-                            <th>Roku</th>
-                            <th>Android</th>
+                            <th>Fecha de registro</th>
                             <th>Action</th>
                         </tr>
                         </thead>
@@ -53,6 +54,7 @@
                 { data: 'id', name: 'id' },
                 { data: 'nombre', name: 'nombre' },
                 { data: 'email', name: 'email' },
+                { data: 'status', name: 'status' },
                 { data: 'status', name: 'status' },
                 { data: 'status', name: 'status' },
                 { data: 'status', name: 'status' },
