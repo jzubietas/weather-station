@@ -55,14 +55,17 @@
 
                                         <div class="mb-3 row">
                                             <label class="form-label col-sm-2" for="exampleFormControlSelect1">Creditos</label>
-                                            <select class="form-select col-sm-10" id="exampleFormControlSelect1">
-                                            <option>DEMO 3 Horas</option>
-                                            <option>1</option>
-                                            <option>2</option>
-                                            <option>3</option>
-                                            <option>4</option>
-                                            <option>5</option>
-                                            </select>
+                                            <div class="col-sm-10">
+                                                <select class="form-select" id="exampleFormControlSelect1">
+                                                    <option>DEMO 3 Horas</option>
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                </select>
+                                            </div>
+                                            
                                         </div>
 
                                         <div class="mb-3 row">
