@@ -16,7 +16,7 @@
         <div class="row">
             <div class="col-lg-9">
                 <div class="row justify-content-center">
-                    <div class="col-md-6 col-lg-3">
+                    <div class="col-md-6 col-lg-6">
                         <div class="card report-card">
                             <div class="card-body">
                                 <div class="row d-flex justify-content-center">
@@ -34,7 +34,7 @@
                             </div><!--end card-body-->
                         </div><!--end card-->
                     </div> <!--end col-->
-                    <div class="col-md-6 col-lg-3">
+                    <div class="col-md-6 col-lg-6">
                         <div class="card report-card">
                             <div class="card-body">
                                 <div class="row d-flex justify-content-center">
