@@ -52,7 +52,7 @@
                                     class="ti-control-record"></i>Subir version de APP</a></li>
                         <li class="nav-item"><a class="nav-link" href="luploaders"><i class="ti-control-record"></i>Uploaders</a></li>
                         <li class="nav-item"><a class="nav-link" href="nuploader"><i class="ti-control-record"></i>Nuevo Uploader</a></li>
-                        <li class="nav-item"><a class="nav-link" href="sales-index"><i class="ti-control-record"></i>Categorias Contenido</a></li>
+                        <li class="nav-item"><a class="nav-link" href="categoriasvod"><i class="ti-control-record"></i>Categorias Contenido</a></li>
                         <li class="nav-item"><a class="nav-link" href="sales-index"><i class="ti-control-record"></i>Logo Livetv</a></li>
                         <li class="nav-item"><a class="nav-link" href="sales-index"><i class="ti-control-record"></i>Panel Contenido</a></li>
                         <li class="nav-item"><a class="nav-link" href="sales-index"><i class="ti-control-record"></i>Editar Cuenta de Administrador</a></li>

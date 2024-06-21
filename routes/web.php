@@ -38,4 +38,4 @@ Route::get('ldealer', [App\Http\Controllers\HomeController::class, 'ldealer'])->
 Route::get('versionApp', [App\Http\Controllers\HomeController::class, 'versionApp'])->name('versionApp');
 Route::get('luploaders', [App\Http\Controllers\HomeController::class, 'luploaders'])->name('luploaders');
 Route::get('nuploader', [App\Http\Controllers\HomeController::class, 'nuploader'])->name('nuploader');
-
+Route::get('categoriasvod', [App\Http\Controllers\HomeController::class, 'categoriasvod'])->name('categoriasvod');

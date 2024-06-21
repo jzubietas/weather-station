@@ -102,9 +102,14 @@ class HomeController extends Controller
         }
         return abort(404);
     }
-    
-    
-    
+
+    public function categoriasvod(Request $request)
+    {
+        if (view()->exists("categoriasvod")) {
+            return view("categoriasvod");
+        }
+        return abort(404);
+    }
 
     public function root()
     {
