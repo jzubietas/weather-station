@@ -54,9 +54,21 @@
                                         </div>
 
                                         <div class="mb-3 row">
+                                            <label class="form-label" for="exampleFormControlSelect1">Creditos</label>
+                                            <select class="form-select" id="exampleFormControlSelect1">
+                                            <option>DEMO 3 Horas</option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="mb-3 row">
                                             <div class="form-check form-switch">
                                                 <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
-                                                <label class="form-check-label" for="flexSwitchCheckDefault">Default switch</label>
+                                                <label class="form-check-label" for="flexSwitchCheckDefault">Sección de adultos</label>
                                             </div>
                                         </div>
 
