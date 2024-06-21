@@ -330,7 +330,7 @@
                     </div><!--end col-->
                 </div>
 
-                <div class="row d-none">
+                <div class="row ">
                     <div class="col-lg-6">
                         <div class="card">
                             <div class="card-header">
