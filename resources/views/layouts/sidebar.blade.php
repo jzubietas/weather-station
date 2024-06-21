@@ -50,7 +50,7 @@
                     <ul class="nav-second-level" aria-expanded="false">
                         <li class="nav-item"><a class="nav-link" href="versionApp"><i
                                     class="ti-control-record"></i>Subir version de APP</a></li>
-                        <li class="nav-item"><a class="nav-link" href="sales-index"><i class="ti-control-record"></i>Uploaders</a></li>
+                        <li class="nav-item"><a class="nav-link" href="luploaders"><i class="ti-control-record"></i>Uploaders</a></li>
                         <li class="nav-item"><a class="nav-link" href="sales-index"><i class="ti-control-record"></i>Nuevo Uploader</a></li>
                         <li class="nav-item"><a class="nav-link" href="sales-index"><i class="ti-control-record"></i>Categorias Contenido</a></li>
                         <li class="nav-item"><a class="nav-link" href="sales-index"><i class="ti-control-record"></i>Logo Livetv</a></li>
