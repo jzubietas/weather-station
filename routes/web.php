@@ -35,3 +35,5 @@ Route::get('claveapp', [App\Http\Controllers\HomeController::class, 'claveapp'])
 Route::get('adduser', [App\Http\Controllers\HomeController::class, 'adduser'])->name('adduser');
 Route::get('ndealer', [App\Http\Controllers\HomeController::class, 'ndealer'])->name('ndealer');
 Route::get('ldealer', [App\Http\Controllers\HomeController::class, 'ldealer'])->name('ldealer');
+Route::get('versionApp', [App\Http\Controllers\HomeController::class, 'versionApp'])->name('versionApp');
+

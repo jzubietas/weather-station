@@ -48,7 +48,7 @@
                             class="align-self-center menu-icon"></i><span>ADMINISTRACION</span><span
                             class="menu-arrow"><i class="mdi mdi-chevron-right"></i></span></a>
                     <ul class="nav-second-level" aria-expanded="false">
-                        <li class="nav-item"><a class="nav-link" href="suscriptores"><i
+                        <li class="nav-item"><a class="nav-link" href="versionApp"><i
                                     class="ti-control-record"></i>Subir version de APP</a></li>
                         <li class="nav-item"><a class="nav-link" href="sales-index"><i class="ti-control-record"></i>Uploaders</a></li>
                         <li class="nav-item"><a class="nav-link" href="sales-index"><i class="ti-control-record"></i>Nuevo Uploader</a></li>

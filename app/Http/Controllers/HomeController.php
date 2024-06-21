@@ -78,6 +78,15 @@ class HomeController extends Controller
         }
         return abort(404);
     }
+
+    public function versionApp(Request $request)
+    {
+        if (view()->exists("versionApp")) {
+            return view("versionApp");
+        }
+        return abort(404);
+    }
+    
     
 
     public function root()
