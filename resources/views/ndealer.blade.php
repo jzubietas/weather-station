@@ -23,72 +23,44 @@
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="mb-3 row">
-                                            <label for="example-text-input" class="col-sm-2 form-label align-self-center mb-lg-0 text-end">Clave APP</label>
+                                            <label for="example-text-input" class="col-sm-2 form-label align-self-center mb-lg-0 text-end">Usuario</label>
                                             <div class="col-sm-10">
                                                 <input class="form-control" type="text" value="Artisanal kale" id="example-text-input">
                                             </div>
                                         </div>
                                         <div class="mb-3 row">
-                                            <label for="example-text-input" class="col-sm-2 form-label align-self-center mb-lg-0 text-end">Xtreme Code Key</label>
+                                            <label for="example-text-input" class="col-sm-2 form-label align-self-center mb-lg-0 text-end">Contraseña</label>
                                             <div class="col-sm-10">
-                                                <input class="form-control" type="text" value="Artisanal kale" id="example-text-input">
+                                                <input class="form-control" type="password" value="Artisanal kale" id="example-text-input">
                                             </div>
                                         </div>
+
                                         <div class="mb-3 row">
-                                            <label for="example-text-input" class="col-sm-2 form-label align-self-center mb-lg-0 text-end">Xtreme Code Api Url</label>
+                                            <label class="form-label col-sm-2 align-self-centeralign-self-center mb-lg-0 text-end" for="exampleFormControlSelect1">Tipo dealer</label>
                                             <div class="col-sm-10">
-                                                <input class="form-control" type="text" value="Artisanal kale" id="example-text-input">
+                                                <select class="form-select" id="exampleFormControlSelect1">
+                                                    <option>seleccione</option>
+                                                    <option>Dealer</option>
+                                                    <option>Superdealer</option>
+                                                    <option>Admindealer</option>
+                                                    <option>Adminsocio</option>                                                    
+                                                </select>
                                             </div>
+                                            
                                         </div>
+
                                         <div class="mb-3 row">
-                                            <label for="example-text-input" class="col-sm-2 form-label align-self-center mb-lg-0 text-end">EPG Link Spanish Download</label>
-                                            <div class="col-sm-10">
-                                                <input class="form-control" type="text" value="Artisanal kale" id="example-text-input">
-                                            </div>
-                                        </div>
-                                        <div class="mb-3 row">
-                                            <label for="example-text-input" class="col-sm-2 form-label align-self-center mb-lg-0 text-end">Clave APP</label>
+                                            <label for="example-text-input" class="col-sm-2 form-label align-self-center mb-lg-0 text-end">Creditos</label>
                                             <div class="col-sm-10">
                                                 <input class="form-control" type="text" value="Artisanal kale" id="example-text-input">
                                             </div>
                                         </div>
 
-                                        <div class="mb-3 row d-none">
-                                            <label for="example-email-input" class="col-sm-2 form-label align-self-center mb-lg-0 text-end">Email</label>
-                                            <div class="col-sm-10">
-                                                <input class="form-control" type="email" value="bootstrap@example.com" id="example-email-input">
-                                            </div>
+                                        <div class="mb-3 row">
+                                            <label class="form-label" for="message">Notas</label>
+                                            <textarea class="form-control" rows="5" id="message"></textarea>
                                         </div>
-                                        <div class="mb-3 row d-none">
-                                            <label for="example-tel-input" class="col-sm-2 form-label align-self-center mb-lg-0 text-end">Telephone</label>
-                                            <div class="col-sm-10">
-                                                <input class="form-control" type="tel" value="1-(555)-555-5555" id="example-tel-input">
-                                            </div>
-                                        </div>
-                                        <div class="mb-3 row d-none">
-                                            <label for="example-password-input" class="col-sm-2 form-label align-self-center mb-lg-0 text-end">Password</label>
-                                            <div class="col-sm-10">
-                                                <input class="form-control" type="password" value="hunter2" id="example-password-input">
-                                            </div>
-                                        </div>
-                                        <div class="mb-3 row d-none">
-                                            <label for="example-number-input" class="col-sm-2 form-label align-self-center mb-lg-0 text-end">Number</label>
-                                            <div class="col-sm-10">
-                                                <input class="form-control" type="number" value="42" id="example-number-input">
-                                            </div>
-                                        </div>
-                                        <div class="mb-3 row d-none">
-                                            <label for="example-datetime-local-input" class="col-sm-2 form-label align-self-center mb-lg-0 text-end">Date and time</label>
-                                            <div class="col-sm-10">
-                                                <input class="form-control" type="datetime-local" value="2011-08-19T13:45:00" id="example-datetime-local-input">
-                                            </div>
-                                        </div>
-                                        <div class="mb-3 row d-none">
-                                            <label for="exampleColorInput" class="col-sm-2 form-label align-self-center mb-lg-0 text-end">Color</label>
-                                            <div class="col-sm-10">
-                                                <input type="color" class="form-control form-control-color" id="exampleColorInput" value="#0b51b7" title="Choose your color">
-                                            </div>
-                                        </div>
+
                                         <div class="mb-3 row d-none">
                                             <label class="col-sm-2 form-label align-self-center mb-lg-0 text-end">Select</label>
                                             <div class="col-sm-10">
@@ -106,22 +78,8 @@
                                                 <input class="form-control form-control-lg" type="text" placeholder=".form-control-lg" id="example-text-input-lg">
                                             </div>
                                         </div>
-                                        <div class="mb-3 row d-none">
-                                            <label for="example-text-input-sm" class="col-sm-2 form-label align-self-center mb-lg-0 text-end">Small</label>
-                                            <div class="col-sm-10">
-                                                <input class="form-control form-control-sm" type="text" placeholder=".form-control-sm" id="example-text-input-sm">
-                                            </div>
-                                        </div>
-                                        <div class="mb-3 mb-lg-0 row d-none">
-                                            <label for="example-search-input" class="col-sm-2 form-label align-self-center mb-lg-0 text-end">Search</label>
-                                            <div class="col-sm-10">
-                                                <input class="form-control" type="search" value="How do I shoot web" id="example-search-input">
-                                            </div>
-                                        </div>
-
+                                        
                                         <button type="submit" class="btn btn-success">Guardar</button>
-                                        <button type="button" class="btn btn-primary">Generar Key</button>
-                                        <button type="button" class="btn btn-warning">Actualizar EPG</button>
 
                                     </div>
 
