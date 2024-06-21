@@ -142,8 +142,6 @@
                                         </div>
 
                                         <button type="submit" class="btn btn-success">Guardar</button>
-                                        <button type="button" class="btn btn-primary">Generar Key</button>
-                                        <button type="button" class="btn btn-warning">Actualizar EPG</button>
 
                                     </div>
 
@@ -210,7 +208,7 @@
                     </div><!--end col-->
                 </div>
 
-                <div class="row ">
+                <div class="row d-none">
                     <div class="col-lg-6">
                         <div class="card">
                             <div class="card-header">
@@ -352,7 +350,7 @@
                     </div><!--end col-->
                 </div>
 
-                <div class="row ">
+                <div class="row d-none">
                     <div class="col-lg-6">
                         <div class="card">
                             <div class="card-header">
