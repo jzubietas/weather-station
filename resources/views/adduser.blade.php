@@ -54,7 +54,7 @@
                                         </div>
 
                                         <div class="mb-3 row">
-                                            <label class="form-label col-sm-2" for="exampleFormControlSelect1">Creditos</label>
+                                            <label class="form-label col-sm-2 align-self-centeralign-self-center mb-lg-0 text-end" for="exampleFormControlSelect1">Creditos</label>
                                             <div class="col-sm-10">
                                                 <select class="form-select" id="exampleFormControlSelect1">
                                                     <option>DEMO 3 Horas</option>
