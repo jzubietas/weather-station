@@ -57,8 +57,11 @@
                                         </div>
 
                                         <div class="mb-3 row">
-                                            <label class="form-label" for="message">Notas</label>
-                                            <textarea class="form-control" rows="5" id="message"></textarea>
+                                            <label class="col-sm-2 form-label align-self-center mb-lg-0 text-end" for="message">Notas</label>
+                                            <div class="col-sm-10">
+                                                <textarea class="form-control" rows="5" id="message"></textarea>a
+                                            </div>
+                                            
                                         </div>
 
                                         <div class="mb-3 row d-none">
