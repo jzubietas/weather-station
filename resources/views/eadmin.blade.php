@@ -847,6 +847,7 @@
 
 @endsection
 @section('script')
+    <script src="{{ URL::asset('assets/plugins/select2/select2.min.js') }}"></script>
     <script src="{{ URL::asset('assets/plugins/huebee/huebee.pkgd.min.js') }}"></script>
     <script src="{{ URL::asset('assets/js/pages/jquery.forms-advanced.js') }}"></script>
     <script src="{{ URL::asset('assets/js/app.js') }}"></script>
