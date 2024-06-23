@@ -119,6 +119,14 @@ class HomeController extends Controller
         return abort(404);
     }
 
+    public function eadmin(Request $request)
+    {
+        if (view()->exists("eadmin")) {
+            return view("eadmin");
+        }
+        return abort(404);
+    }
+
     public function root()
     {
         return view('index');

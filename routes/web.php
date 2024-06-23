@@ -40,3 +40,4 @@ Route::get('luploaders', [App\Http\Controllers\HomeController::class, 'luploader
 Route::get('nuploader', [App\Http\Controllers\HomeController::class, 'nuploader'])->name('nuploader');
 Route::get('categoriasvod', [App\Http\Controllers\HomeController::class, 'categoriasvod'])->name('categoriasvod');
 Route::get('logolive', [App\Http\Controllers\HomeController::class, 'logolive'])->name('logolive');
+Route::get('eadmin', [App\Http\Controllers\HomeController::class, 'eadmin'])->name('eadmin');
