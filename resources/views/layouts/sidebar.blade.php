@@ -55,9 +55,9 @@
                         <li class="nav-item"><a class="nav-link" href="categoriasvod"><i class="ti-control-record"></i>Categorias Contenido</a></li>
                         <li class="nav-item"><a class="nav-link" href="logolive"><i class="ti-control-record"></i>Logo Livetv</a></li>
                         <li class="nav-item"><a class="nav-link" href="sales-index"><i class="ti-control-record"></i>Panel Contenido</a></li>
-                        <li class="nav-item"><a class="nav-link" href="sales-index"><i class="ti-control-record"></i>Editar Cuenta de Administrador</a></li>
-                        <li class="nav-item"><a class="nav-link" href="sales-index"><i class="ti-control-record"></i>IP's Baneadas</a></li>
-                        <li class="nav-item"><a class="nav-link" href="sales-index"><i class="ti-control-record"></i>Mensajes en Login o Panels</a></li>
+                        <li class="nav-item"><a class="nav-link" href="eadmin"><i class="ti-control-record"></i>Editar Cuenta de Administrador</a></li>
+                        <li class="nav-item"><a class="nav-link" href="ipbaneadas"><i class="ti-control-record"></i>IP's Baneadas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="msgpanel"><i class="ti-control-record"></i>Mensajes en Login o Panels</a></li>
                         <li class="nav-item"><a class="nav-link" href="sales-index"><i class="ti-control-record"></i>Mensajes Global Usuario</a></li>
                         <li class="nav-item"><a class="nav-link" href="sales-index"><i class="ti-control-record"></i>Nuevo Contenido Agregado</a></li>
                         <li class="nav-item"><a class="nav-link" href="sales-index"><i class="ti-control-record"></i>Reporte Link Caidos</a></li>
