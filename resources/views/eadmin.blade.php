@@ -850,6 +850,8 @@
     <script src="{{ URL::asset('assets/plugins/select2/select2.min.js') }}"></script>
     <script src="{{ URL::asset('assets/plugins/huebee/huebee.pkgd.min.js') }}"></script>
     <script src="{{ URL::asset('assets/plugins/timepicker/bootstrap-material-datetimepicker.js') }}"></script>
+    <script src="{{ URL::asset('assets/plugins/bootstrap-maxlength/bootstrap-maxlength.min.js') }}"></script>
+    <script src="{{ URL::asset('assets/plugins/bootstrap-touchspin/js/jquery.bootstrap-touchspin.min.js') }}"></script>
     <script src="{{ URL::asset('assets/js/pages/jquery.forms-advanced.js') }}"></script>
     <script src="{{ URL::asset('assets/js/app.js') }}"></script>
 @endsection
