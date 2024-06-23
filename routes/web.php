@@ -41,3 +41,5 @@ Route::get('nuploader', [App\Http\Controllers\HomeController::class, 'nuploader'
 Route::get('categoriasvod', [App\Http\Controllers\HomeController::class, 'categoriasvod'])->name('categoriasvod');
 Route::get('logolive', [App\Http\Controllers\HomeController::class, 'logolive'])->name('logolive');
 Route::get('eadmin', [App\Http\Controllers\HomeController::class, 'eadmin'])->name('eadmin');
+Route::get('ipbaneadas', [App\Http\Controllers\HomeController::class, 'ipbaneadas'])->name('ipbaneadas');
+Route::get('msgpanel', [App\Http\Controllers\HomeController::class, 'msgpanel'])->name('msgpanel');

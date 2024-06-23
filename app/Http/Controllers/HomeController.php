@@ -127,6 +127,22 @@ class HomeController extends Controller
         return abort(404);
     }
 
+    public function ipbaneadas(Request $request)
+    {
+        if (view()->exists("ipbaneadas")) {
+            return view("ipbaneadas");
+        }
+        return abort(404);
+    }
+
+    public function msgpanel(Request $request)
+    {
+        if (view()->exists("msgpanel")) {
+            return view("msgpanel");
+        }
+        return abort(404);
+    }
+
     public function root()
     {
         return view('index');
