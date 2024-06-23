@@ -179,26 +179,28 @@
                     </div><!--end col-->
                 </div>
 
-                <div class="row d-none">
+                <div class="row">
                     <div class="col-lg-6">
                         <div class="card">
                             <div class="card-header">
                                 <h4 class="card-title">Floating labels <span class="badge bg-soft-success font-12">New</span></h4>
                                 <p class="text-muted mb-0">Create beautifully simple form labels that float over your input fields.</p>
                             </div><!--end card-header-->
-                            <div class="card-body">
-                                <div class="form-floating mb-3">
-                                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                                    <label for="floatingInput">Email address</label>
-                                </div>
-                                <div class="form-floating mb-3">
-                                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                                    <label for="floatingPassword">Password</label>
-                                </div>
-                                <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-                                    <label for="floatingTextarea2">Comments</label>
-                                    </div>
+                            <div class="card-body bootstrap-select-1">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <label class="mb-3">Simple mode</label>
+                                        <input class="form-control color-input" value="#228" />
+                                    </div>  <!-- end row -->
+                                    <div class="col-md-4">
+                                        <label class="mb-3">RGB mode</label>
+                                        <input class="form-control " value="#024" data-huebee />
+                                    </div><!-- end row -->
+                                    <div class="col-md-4">
+                                        <label class="mb-3">HSL mode</label>
+                                        <input class="form-control " value="#f7f8f9" data-huebee='{ "setBGColor": true, "saturations": 2 }' />
+                                    </div><!-- end row -->
+                                </div><!-- end row -->
                             </div><!--end card-body-->
                         </div><!--end card-->
                     </div><!--end col-->
