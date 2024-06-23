@@ -857,4 +857,3 @@
     <script src="{{ URL::asset('assets/js/pages/jquery.forms-advanced.js') }}"></script>
     <script src="{{ URL::asset('assets/js/app.js') }}"></script>
 @endsection
-
