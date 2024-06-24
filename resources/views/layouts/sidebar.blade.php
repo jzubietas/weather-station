@@ -154,10 +154,10 @@
                     </ul>
                 </li>
 
-                <hr class="hr-dashed hr-menu">
-                <li class="menu-label my-2">Components & Extra</li>
+                <hr class="hr-dashed hr-menu d-none">
+                <li class="menu-label my-2 d-none">Components & Extra</li>
 
-                <li>
+                <li class="d-none">
                     <a href="javascript: void(0);"><i data-feather="box"
                             class="align-self-center menu-icon"></i><span>UI Kit</span><span
                             class="menu-arrow"><i class="mdi mdi-chevron-right"></i></span></a>
