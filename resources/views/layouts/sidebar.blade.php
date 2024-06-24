@@ -288,13 +288,13 @@
                     </ul>
                 </li>
 
-                <li>
+                <li class="d-none">
                     <a href="widgets"><i data-feather="layers"
                             class="align-self-center menu-icon"></i><span>Widgets</span><span
                             class="badge badge-soft-success menu-arrow">New</span></a>
                 </li>
 
-                <li>
+                <li class="d-none">
                     <a href="javascript: void(0);"><i data-feather="file-plus"
                             class="align-self-center menu-icon"></i><span>Pages</span><span
                             class="menu-arrow"><i class="mdi mdi-chevron-right"></i></span></a>
