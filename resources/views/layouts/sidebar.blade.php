@@ -317,7 +317,7 @@
                 </li>
             </ul>
 
-            <div class="update-msg text-center">
+            <div class="update-msg text-center d-none">
                 <a href="javascript:void(0);" class="float-end close-btn text-black" data-dismiss="update-msg"
                     aria-label="Close" aria-hidden="true">
                     <i class="mdi mdi-close"></i>
