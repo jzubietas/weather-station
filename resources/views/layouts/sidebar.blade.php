@@ -57,13 +57,13 @@
                         <li class="nav-item"><a class="nav-link" href="sales-index"><i class="ti-control-record"></i>Panel Contenido</a></li>
                         <li class="nav-item"><a class="nav-link" href="eadmin"><i class="ti-control-record"></i>Editar Cuenta de Administrador</a></li>
                         <li class="nav-item"><a class="nav-link" href="ipbaneadas"><i class="ti-control-record"></i>IP's Baneadas</a></li>
-                        <li class="nav-item"><a class="nav-link" href="msgpanel"><i class="ti-control-record"></i>Mensajes en Login o Panels</a></li>
-                        <li class="nav-item"><a class="nav-link" href="sales-index"><i class="ti-control-record"></i>Mensajes Global Usuario</a></li>
-                        <li class="nav-item"><a class="nav-link" href="sales-index"><i class="ti-control-record"></i>Nuevo Contenido Agregado</a></li>
-                        <li class="nav-item"><a class="nav-link" href="sales-index"><i class="ti-control-record"></i>Reporte Link Caidos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="sales-index"><i class="ti-control-record"></i>Sugerencia/Pedido</a></li>
-                        <li class="nav-item"><a class="nav-link" href="sales-index"><i class="ti-control-record"></i>Bitacora</a></li>
-                        <li class="nav-item"><a class="nav-link" href="sales-index"><i class="ti-control-record"></i>Duplica Creditos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="mensajes_panel"><i class="ti-control-record"></i>Mensajes en Login o Panels</a></li>
+                        <li class="nav-item"><a class="nav-link" href="mensajes_usuario"><i class="ti-control-record"></i>Mensajes Global Usuario</a></li>
+                        <li class="nav-item"><a class="nav-link" href="noveda_agregada"><i class="ti-control-record"></i>Nuevo Contenido Agregado</a></li>
+                        <li class="nav-item"><a class="nav-link" href="reportelinkcaido"><i class="ti-control-record"></i>Reporte Link Caidos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="sugerencia"><i class="ti-control-record"></i>Sugerencia/Pedido</a></li>
+                        <li class="nav-item"><a class="nav-link" href="bitacora"><i class="ti-control-record"></i>Bitacora</a></li>
+                        <li class="nav-item"><a class="nav-link" href="dcreditos"><i class="ti-control-record"></i>Duplica Creditos</a></li>
                         <li class="nav-item"><a class="nav-link" href="claveapp"><i class="ti-control-record"></i>Clave APP</a></li>
                     </ul>
                 </li>
@@ -80,7 +80,7 @@
                     </ul>
                 </li>
 
-                <li>
+                <li class="d-none">
                     <a href="javascript: void(0);"><i data-feather="grid"
                             class="align-self-center menu-icon"></i><span>Apps</span><span class="menu-arrow"><i
                                 class="mdi mdi-chevron-right"></i></span></a>
@@ -134,7 +134,7 @@
                     </ul>
                 </li>
 
-                <li>
+                <li class="d-none">
                     <a href="javascript: void(0);"><i data-feather="lock"
                             class="align-self-center menu-icon"></i><span>Authentication</span><span
                             class="menu-arrow"><i class="mdi mdi-chevron-right"></i></span></a>

@@ -41,5 +41,11 @@ Route::get('nuploader', [App\Http\Controllers\HomeController::class, 'nuploader'
 Route::get('categoriasvod', [App\Http\Controllers\HomeController::class, 'categoriasvod'])->name('categoriasvod');
 Route::get('logolive', [App\Http\Controllers\HomeController::class, 'logolive'])->name('logolive');
 Route::get('eadmin', [App\Http\Controllers\HomeController::class, 'eadmin'])->name('eadmin');
-Route::get('ipbaneadas', [App\Http\Controllers\HomeController::class, 'ipbaneadas'])->name('ipbaneadas');
-Route::get('msgpanel', [App\Http\Controllers\HomeController::class, 'msgpanel'])->name('msgpanel');
+Route::get('baneados', [App\Http\Controllers\HomeController::class, 'baneados'])->name('baneados');
+Route::get('mensajes_panel', [App\Http\Controllers\HomeController::class, 'mensajes_panel'])->name('mensajes_panel');
+Route::get('dcreditos', [App\Http\Controllers\HomeController::class, 'dcreditos'])->name('dcreditos');
+Route::get('bitacora', [App\Http\Controllers\HomeController::class, 'bitacora'])->name('bitacora');
+Route::get('sugerencia', [App\Http\Controllers\HomeController::class, 'sugerencia'])->name('sugerencia');
+Route::get('reportelinkcaido', [App\Http\Controllers\HomeController::class, 'reportelinkcaido'])->name('reportelinkcaido');
+Route::get('noveda_agregada', [App\Http\Controllers\HomeController::class, 'noveda_agregada'])->name('noveda_agregada');
+Route::get('mensajes_usuario', [App\Http\Controllers\HomeController::class, 'mensajes_usuario'])->name('mensajes_usuario');

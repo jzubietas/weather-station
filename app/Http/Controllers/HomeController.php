@@ -127,21 +127,70 @@ class HomeController extends Controller
         return abort(404);
     }
 
-    public function ipbaneadas(Request $request)
+    public function baneados(Request $request)
     {
-        if (view()->exists("ipbaneadas")) {
-            return view("ipbaneadas");
+        if (view()->exists("baneados")) {
+            return view("baneados");
         }
         return abort(404);
     }
 
-    public function msgpanel(Request $request)
+    public function mensajes_panel(Request $request)
     {
-        if (view()->exists("msgpanel")) {
-            return view("msgpanel");
+        if (view()->exists("mensajes_panel")) {
+            return view("mensajes_panel");
         }
         return abort(404);
     }
+
+    public function dcreditos(Request $request)
+    {
+        if (view()->exists("dcreditos")) {
+            return view("dcreditos");
+        }
+        return abort(404);
+    }
+
+    public function bitacora(Request $request)
+    {
+        if (view()->exists("bitacora")) {
+            return view("bitacora");
+        }
+        return abort(404);
+    }
+
+    public function sugerencia(Request $request)
+    {
+        if (view()->exists("sugerencia")) {
+            return view("sugerencia");
+        }
+        return abort(404);
+    }
+
+    public function reportelinkcaido(Request $request)
+    {
+        if (view()->exists("reportelinkcaido")) {
+            return view("reportelinkcaido");
+        }
+        return abort(404);
+    }
+
+    public function noveda_agregada(Request $request)
+    {
+        if (view()->exists("noveda_agregada")) {
+            return view("noveda_agregada");
+        }
+        return abort(404);
+    }
+
+    public function mensajes_usuario(Request $request)
+    {
+        if (view()->exists("mensajes_usuario")) {
+            return view("mensajes_usuario");
+        }
+        return abort(404);
+    }
+    
 
     public function root()
     {
