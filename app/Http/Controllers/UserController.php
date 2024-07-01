@@ -6,6 +6,8 @@ use App\Http\Controllers\Controller;
 use App\Models\UsuarioVod;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+use Yajra\DataTables\DataTables;
 
 class UserController extends Controller
 {
@@ -17,7 +19,8 @@ class UserController extends Controller
 
         $model = UsuarioVod::with(['user', 'dispositive'])->select('usuario_vod.*');
 
-        return Datatables::of($model)
+        return Datatables::of(DB::table($model))
+        //return Datatables::of($model)
         ->addIndexColumn()
         ->addColumn('acciones', function ($row) {
             $button = '<div class="btn-group"><button class="btn green btn-sm btn-outline dropdown-toggle" type="button"  data-toggle="dropdown">' . __('user.actions') . '</button><ul class="dropdown-menu pull-right">';
