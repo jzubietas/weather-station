@@ -190,6 +190,14 @@ class HomeController extends Controller
         }
         return abort(404);
     }
+
+    public function panel_contenido(Request $request)
+    {
+        if (view()->exists("panel_contenido")) {
+            return view("panel_contenido");
+        }
+        return abort(404);
+    }
     
 
     public function root()

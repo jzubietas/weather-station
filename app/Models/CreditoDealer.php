@@ -10,4 +10,5 @@ class CreditoDealer extends Model
     use HasFactory;
     protected $table = 'creditos_dealer';
     protected $guarded = ['cve'];
+    public $timestamps = FALSE;
 }

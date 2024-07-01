@@ -45,7 +45,7 @@
             processing: false,
             serverSide: false,
             ajax: {
-                url: '{{ route('suscriptores-list') }}',
+                url: '{{ route('suscriptores-vod') }}',
                 type: 'GET'
             },
             order: [[1, 'asc']],

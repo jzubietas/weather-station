@@ -30,6 +30,7 @@ Route::get('suscriptores', [App\Http\Controllers\HomeController::class, 'suscrip
 Route::post('/update-password/{id}', [App\Http\Controllers\HomeController::class, 'updatePassword'])->name('updatePassword');
 
 Route::get('suscriptores-list',[App\Http\Controllers\HomeController::class, 'suscriptoreslist'])->name('suscriptores-list');
+Route::get('suscriptores-vod',[App\Http\Controllers\UserController::class, 'table'])->name('suscriptores-vod');
 
 Route::get('claveapp', [App\Http\Controllers\HomeController::class, 'claveapp'])->name('claveapp');
 Route::get('adduser', [App\Http\Controllers\HomeController::class, 'adduser'])->name('adduser');
@@ -49,3 +50,4 @@ Route::get('sugerencia', [App\Http\Controllers\HomeController::class, 'sugerenci
 Route::get('reportelinkcaido', [App\Http\Controllers\HomeController::class, 'reportelinkcaido'])->name('reportelinkcaido');
 Route::get('noveda_agregada', [App\Http\Controllers\HomeController::class, 'noveda_agregada'])->name('noveda_agregada');
 Route::get('mensajes_usuario', [App\Http\Controllers\HomeController::class, 'mensajes_usuario'])->name('mensajes_usuario');
+Route::get('panel_contenido', [App\Http\Controllers\HomeController::class, 'panel_contenido'])->name('panel_contenido');

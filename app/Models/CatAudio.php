@@ -10,4 +10,6 @@ class CatAudio extends Model
     use HasFactory;
     protected $table = 'cat_audio';
     protected $guarded = ['cve'];
+
+    public $timestamps = FALSE;
 }

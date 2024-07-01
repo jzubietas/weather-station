@@ -10,4 +10,5 @@ class DispositivoMovil extends Model
     use HasFactory;
     protected $table = 'dispositivo_movil';
     protected $guarded = ['id'];
+    public $timestamps = FALSE;
 }

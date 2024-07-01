@@ -10,4 +10,6 @@ class CatTipoContenido extends Model
     use HasFactory;
     protected $table = 'cat_tipo_contenido';
     protected $guarded = ['cve'];
+
+    public $timestamps = FALSE;
 }

@@ -10,4 +10,5 @@ class TipoUsuario extends Model
     use HasFactory;
     protected $table = 'tipo_usuario';
     protected $guarded = ['cve'];
+    public $timestamps = FALSE;
 }
