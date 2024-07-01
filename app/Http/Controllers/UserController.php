@@ -23,12 +23,13 @@ class UserController extends Controller
         //return Datatables::of($model)
         ->addIndexColumn()
         ->addColumn('acciones', function ($row) {
-            $button = '<div class="btn-group"><button class="btn green btn-sm btn-outline dropdown-toggle" type="button"  data-toggle="dropdown">' . __('user.actions') . '</button><ul class="dropdown-menu pull-right">';
+            return '';
+            /*$button = '<div class="btn-group"><button class="btn green btn-sm btn-outline dropdown-toggle" type="button"  data-toggle="dropdown">' . __('user.actions') . '</button><ul class="dropdown-menu pull-right">';
 				$actions = '<li><a class="dropdown-item" href="' . route('fadmin.user.edit', $row->cve) . '">' . __('user.button_edit') . '</a></li>';
 				$actions .= '<li><a class="dropdown-item btn-credit" href="#" data-route="' . route('fadmin.user.credit', $row->cve) . '">' . __('user.add_credits') . '</a></li>';
 				$actions .= '<li><a class="dropdown-item btn-credit" href="#" data-route="' . route('fadmin.user.device', $row->cve) . '">' . __('user.add_device') . '</a></li>';
 				$actions .= '<li><a class="dropdown-item btn-delete" href="#" data-route="' . route('fadmin.user.delete', $row->cve) . '" data-mensaje="' . __('user.button_edit') . '">' . __('user.button_delete') . '</a></li>';
-				return $button . $actions . '</ul></div>';
+				return $button . $actions . '</ul></div>';*/
         })
         ->addColumn('Estado', function ($row) {
             $now = date("Y-m-d");
