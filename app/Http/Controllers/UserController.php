@@ -17,7 +17,7 @@ class UserController extends Controller
     public function table(Request $request)
     {
 
-        $model = UsuarioVod::with(['user', 'dispositive'])->select('usuario_vod.*');
+        $model = UsuarioVod::/*with(['user', 'dispositive'])->*/select('usuario_vod.*');
 
         return Datatables::of(DB::table($model))
         //return Datatables::of($model)
