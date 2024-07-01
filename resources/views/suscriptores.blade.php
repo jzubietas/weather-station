@@ -50,9 +50,9 @@
             },
             order: [[1, 'asc']],
             columns: [
-                { data: 'id', name: 'id' },
-                { data: 'nombre', name: 'nombre' },
-                { data: 'email', name: 'email' },
+                { data: 'cve', name: 'cve' },
+                { data: 'apodo', name: 'apodo' },
+                { data: 'usuario', name: 'usuario' },
                 { data: 'status', name: 'status' },
                 { data: 'status', name: 'status' },
                 { data: 'status', name: 'status' },
