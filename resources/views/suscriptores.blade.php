@@ -53,10 +53,10 @@
                 { data: 'cve', name: 'cve' },
                 { data: 'apodo', name: 'apodo' },
                 { data: 'usuario', name: 'usuario' },
-                { data: 'status', name: 'status' },
-                { data: 'status', name: 'status' },
-                { data: 'status', name: 'status' },
-                { data: 'action', name: 'action' }
+                { data: 'Estado', name: 'Estado' },
+                { data: 'Estado', name: 'Estado' },
+                { data: 'Estado', name: 'Estado' },
+                { data: 'acciones', name: 'acciones' }
             ],
             responsive: true,
             language: {
